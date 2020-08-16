@@ -97,11 +97,11 @@ ms.date: 08/06/2020
 
 ## Tuples
 
-C# supports [***tuples***](../language-reference/builtin-types/value-tuples.md), which provides concise syntax to group multiple data elements in a lightweight data structure. You instantiate a tuple by declaring the types and names of the members between `(` and `)`, as shown in the following example:
+C# 支持 [***元组***](../language-reference/builtin-types/value-tuples.md)可以用简洁的语法将多个数据元素包括在一个轻量级的数据结构中。可以通过在 `(` 和 `)` 之间声明成员的类型和名称来实例化元组，见示例如下：
 
 :::code language="csharp" source="./snippets/shared/Types.cs" ID="DeclareTuples":::
 
-Tuples provide an alternative for data structure with multiple members, without using the building blocks described in the next article.
+在不使用下一章所介绍的”基石”的情况下，若要创建具有多个成员的数据结构，元组可作为一个替代方案。
 
 >[!div class="step-by-step"]
 >[Previous](index.md)
