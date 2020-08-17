@@ -1,6 +1,6 @@
 ---
 title: 定义类型及其成员 - C# 教程
-description: 类型是程序的基石。学习如何在 C# 种创建类、结构体、接口等等。
+description: 类型是程序的基石。学习如何在 C# 中创建类、结构体、接口等等。
 ms.date: 08/06/2020
 ---
 # 类型和成员
@@ -97,12 +97,12 @@ ms.date: 08/06/2020
 
 ## Tuples
 
-C# 支持 [***元组***](../language-reference/builtin-types/value-tuples.md)可以用简洁的语法将多个数据元素包括在一个轻量级的数据结构中。可以通过在 `(` 和 `)` 之间声明成员的类型和名称来实例化元组，例如：
+C# 支持 [***元组***](../language-reference/builtin-types/value-tuples.md)，可以用简洁的语法将多个数据元素包括在一个轻量级的数据结构中。可以通过在 `(` 和 `)` 之间声明成员的类型和名称来实例化元组，例如：
 
 :::code language="csharp" source="./snippets/shared/Types.cs" ID="DeclareTuples":::
 
-在不使用下一章所介绍的“基石”的前提下，若要创建具有多个成员的数据结构，元组可作为一个替代方案。
+在不使用下一章所介绍的程序构建基块的前提下，若要创建具有多个成员的数据结构，元组可作为一个替代方案。
 
 >[!div class="step-by-step"]
->[Previous](index.md)
->[Next](program-building-blocks.md)
+>[上一页](index.md)
+>[下一页](program-building-blocks.md)
